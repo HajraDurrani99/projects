@@ -196,9 +196,9 @@
         firstPageAnim();
 
         document.querySelectorAll(".element1").forEach(function(element1){
-            element1.addEventListener("mousemove", function(details){
+            element1.addEventListener("mousemove", function(dets){
                 gsap.to(element1.querySelector("img"),{
-                    opacity:1,
+                    opacity: 1,
                     ease: Power1,
                 });
             });

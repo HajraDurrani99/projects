@@ -147,7 +147,7 @@ margin-left: 220px;
     border-bottom: 1px solid #888;
 } */
 .element1 img{
-    display: none;
+    display:none;
     height: 120%;
     z-index: 999;
     position: absolute;
